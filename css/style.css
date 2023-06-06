@@ -239,6 +239,12 @@ nav {
     padding: 13px 17px;
     border-radius: .3vw;
     width: fit-content;
+    transition: .5s;
+}
+
+.info-text .btn:hover {
+    transform: scale(1.03);
+    transition: .5s;
 }
 
 .info-home .group-cards {
@@ -762,6 +768,7 @@ footer #content-footer {
     .info-home .info-text {
         text-align: center;
         align-items: center;
+        margin-top: 40px;
     }
 
     .info-text > .h1home, .phome {
@@ -773,7 +780,7 @@ footer #content-footer {
         max-width: 72vw;
         justify-content: center;
         position: static;
-        margin: 60px auto 0 auto;
+        margin: 60px auto 30px auto;
     }
 
     /* Section About */

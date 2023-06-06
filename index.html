@@ -314,33 +314,33 @@
                 </div>
             </div>
 
-            <form method="POST">
+            <form action="php/post.php" method="POST">
                 <fieldset>
                     <label for="name" class="data">
                         <span>
                             Nome: 
                         </span>
-                        <input type="text" class="data">
+                        <input type="text" class="data" name="nome">
                     </label>
 
                     <label for="email" class="data">
                         <span>
                             E-mail:
                         </span> 
-                        <input type="text" class="data">
+                        <input type="text" class="data" name="email">
                     </label>
 
                     <label for="subject" class="data">
                         <span>
                             Assunto:
                         </span> 
-                        <input type="text" class="data" style="width: 234px;">
+                        <input type="text" class="data" style="width: 234px;" name="assunto">
                     </label>
 
                     <label for="message" class="message">
                         <span>Mensagem:</span>
                         <br>
-                        <textarea name="message" id="" cols="30" rows="10" ></textarea>
+                        <textarea name="mensagem" id="" cols="30" rows="10" ></textarea>
                     </label>
 
                     <input type="submit" class="btnform">
